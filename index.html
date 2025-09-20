@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+
+      <link rel="stylesheet" href="assets/css/card.css">
+    <!-- linking swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+       
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio-Aakash</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                     <a href="#" class="logo">
+                <i class="fas fa-heartbeat"></i>Aakash
+            </a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">What I Do</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                         <li class="nav__item"><a href="#recent" class="nav__link"> Recent</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Aakash</span><br>Data Engineer</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                    <a href="assets/Aakash_Resume_1.pdf" download="Aakash_Kushwah_Resume" class="button">Resume</a>
+
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/aakash2603/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/aakash.kushwah__?igsh=MTFnb3dhMW5sOWZvaQ==" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://github.com/aakashkushwah26" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://leetcode.com/u/aakashkushwah01/" class="home__social-icon" target="_blank">
+                    <i class='bx bx-code'></i> <!-- Boxicons alternative -->
+    </a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/profile.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/About.png" alt="aakash">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Aakash</h2>
+                        <p class="about__text">I'm Aakash Kushwah, a CSE student specializing in Artificial Intelligence and Data 
+                            Science with skills in Python, Django, Flask, and Machine Learning, and currently exploring Deep Learning.
+                          I've worked on impactful projects like Student Mental Health Prediction 
+                            an Ayurvedic Plant Classification & 
+                            Medicine Recommendation System, combining tech with real-world problem-solving.</p>           
+                    </div>                                   
+                </div>
+            </section>
+            <!--===== SERVICES =====-->
+        <!-- What I Do Section -->
+    <section class="what-i-do" id="services">
+        <h5 class="section-title">KNOW</h5>
+        <h2 class="heading">What I Do</h2>
+        <div class="services-container">
+            
+            <div class="service-box">
+                <h3>Python Development</h3>
+                <p>
+                    Passionate about Python programming with proficiency in Pandas, NumPy, Matplotlib,
+                     and other libraries for efficient data analysis and visualization
+                </p>
+            </div>
+
+            <div class="service-box">
+                <h3>Full Stack Development</h3>
+                <p>
+                    Skilled in Full Stack Development using HTML, CSS, JavaScript, and backend frameworks
+                     like Django and Flask to build dynamic and scalable web applications.
+                </p>
+            </div>
+
+            <div class="service-box">
+                <h3>AI/ML</h3>
+                <p>
+                    Proficient in AI/ML with hands-on experience in Python, data preprocessing, model development, 
+                    and deployment using libraries such as Scikit-learn, TensorFlow, and Keras.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+  <!-- Skills Section -->
+<section class="skills" id="skills">
+    <h5 class="section-title">Skills</h5>
+  <h2 class="heading">My Experties </h2>
+
+  <div class="skills-container">
+    <!-- Left side with descriptions -->
+    <div class="skills-details">
+  <div class="skill-box">
+    <h3>Python</h3>
+    <p>Proficient in Python with expertise in libraries like NumPy, Pandas, and Matplotlib for data analysis and visualization.</p>
+  </div>
+
+  <div class="skill-box">
+    <h3>Django</h3>
+    <p>Experienced in building scalable web applications using Django and Django Rest Framework with    4+ projects completed.</p>
+  </div>
+
+  <div class="skill-box">
+    <h3>C++</h3>
+    <p>Strong foundation in C++ for Data Structures, Algorithms, and Competitive Programming.</p>
+  </div>
+
+  <div class="skill-box">
+    <h3>Machine Learning & Deep Learning</h3>
+    <p>Hands-on experience in ML/DL model development using Scikit-learn, TensorFlow, and Keras for predictive and classification tasks.</p>
+  </div>
+
+  <div class="skill-box">
+    <h3>Data Analytics</h3>
+    <p>Skilled in data preprocessing, analysis, and visualization with tools like Python (Pandas, Matplotlib, Seaborn) and Power BI to derive actionable insights.</p>
+  </div>
+</div>
+
+    <!-- Right side with tags -->
+    <div class="skills-tags">
+
+      <h3>Programming Languages</h3>
+      <div class="tags">
+        <span>C</span>
+        <span>C++</span>
+        <span>Python</span>
+      </div>
+
+      <h3>Web Development</h3>
+      <div class="tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Bootstrap</span>
+      </div>
+
+      <h3>Frameworks</h3>
+      <div class="tags">
+        <span>Django</span>
+        <span>Django Rest Framework</span>
+        <span>Flask</span>
+      </div>
+
+      <h3>Machine Learning & Deep Learning</h3>
+      <div class="tags">
+        <span>NumPy</span>
+        <span>Pandas</span>
+        <span>Scikit-learn</span>
+        <span>TensorFlow</span>
+        <span>Keras</span>
+      </div>
+
+      <h3>Data Analytics</h3>
+      <div class="tags">
+        <span>Python</span>
+        <span>Power BI</span>
+        <span>Microsoft Excel</span>
+        <span>SQL</span>
+      </div>
+
+      <h3>Database Technology</h3>
+      <div class="tags">
+        <span>SQL</span>
+        <span>SQLite</span>
+        <span>MySQL</span>
+        <span>Oracle</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+ <!-- RECENT PROJECTS -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> -->
+    <!-- CSS  -->
+    <!-- <link rel="stylesheet" href="assets/css/card.css"> -->
+    <!-- linking swiper CSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"> -->
+<!-- </head>
+<body> -->
+  <section class="about section " id="recent">
+    <h5 class="section-title">Recent</h5>
+   <h2 class="heading">Projects</h2>
+  <div class="container swiper">
+    <div class="wrapper">
+      <div class="card-list swiper-wrapper">
+
+        <!-- Card Start -->
+        <div class="card swiper-slide">
+          <div class="card-image">
+            <img src="images/project1.png" alt="Development">
+            <!-- <p class="card-tag">AI/ML</p> -->
+          </div>
+
+          <div class="card-content">
+            <h3 class="card-title">🧠StuMind AI</h3>
+            <p class="card-text">
+            AI predicts student mental health, identifying risks for timely support.
+            </p>
+
+            <div class="card-footer">
+              <div class="card-profile">
+                <img src="images/pro.jpg" alt="">
+                <div class="card-profile-info">
+                    <span class="card-profile-name">Aakash Kushwah</span>
+                    <span class="card-profile-role">AI/ML Engineer</span>
+                </div>
+
+              </div>
+             
+              <a href="#" class="card-button">Read more</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card End -->
+          <!-- Card Start -->
+        <div class="card swiper-slide">
+          <div class="card-image">
+            <img src="images/project2.png" alt="Development">
+            <!-- <p class="card-tag">DL</p> -->
+          </div>
+
+          <div class="card-content">
+            <h3 class="card-title"> 🌿Ayurvedic AI</h3>
+            <p class="card-text">AI identifies Ayurvedic plants and suggests remedies via chatbot.
+            </p>
+
+            <div class="card-footer">
+              <div class="card-profile">
+               <img src="images/pro.jpg" alt="">
+                <div class="card-profile-info">
+                    <span class="card-profile-name">Aakash Kushwah</span>
+                    <span class="card-profile-role">Data Engineer</span>
+                </div>
+
+              </div>
+             
+              <a href="#" class="card-button">Read more</a>
+            </div>
+          </div>
+        </div>
+         <!-- Card End -->
+
+           <!-- Card Start -->
+        <div class="card swiper-slide">
+          <div class="card-image">
+            <img src="images/project3.png" alt="Development">
+            <!-- <p class="card-tag">DL&LM</p> -->
+          </div>
+
+          <div class="card-content">
+            <h3 class="card-title">📄MediScan AI</h3>
+            <p class="card-text">AI system extracts and analyzes medical reports, providing clear insights.
+             </p>
+
+            <div class="card-footer">
+              <div class="card-profile">
+                <img src="images/pro.jpg" alt="">
+                <div class="card-profile-info">
+                    <span class="card-profile-name">Aakash Kushwah</span>
+                    <span class="card-profile-role">Data Engineer</span>
+                </div>
+
+              </div>
+             
+              <a href="#" class="card-button">Read more</a>
+            </div>
+          </div>
+        </div>
+         <!-- Card End -->
+
+           <!-- Card Start -->
+        <div class="card swiper-slide">
+          <div class="card-image">
+            <img src="images/Project4.png" alt="Development">
+            <!-- <p class="card-tag">Development</p> -->
+          </div>
+
+          <div class="card-content">
+            <h3 class="card-title">📊TechEduation</h3>
+            <p class="card-text">
+             AI-powered learning platform offering courses and career guidance for students.
+            </p>
+
+            <div class="card-footer">
+              <div class="card-profile">
+               <img src="images/pro.jpg" alt="">
+                <div class="card-profile-info">
+                    <span class="card-profile-name">Aakash Kushwah</span>
+                    <span class="card-profile-role">Full Stack Developer</span>
+                </div>
+
+              </div>
+             
+              <a href="#" class="card-button">Read more</a>
+            </div>
+          </div>
+        </div>
+         <!-- Card End -->
+
+           <!-- Card Start -->
+        <div class="card swiper-slide">
+          <div class="card-image">
+            <img src="images/project5.png" alt="Development">
+            <!-- <p class="card-tag">Data Analytics</p> -->
+          </div>
+
+          <div class="card-content">
+            <h3 class="card-title">🛒Retail Analysis</h3>
+            <p class="card-text">
+              SQL-based retail analysis uncovering KPIs, sales trends, and customer insights.
+            </p>
+
+            <div class="card-footer">
+              <div class="card-profile">
+                <img src="images/pro.jpg" alt="">
+                <div class="card-profile-info">
+                    <span class="card-profile-name">Aakash Kushwah</span>
+                    <span class="card-profile-role">Data Analysis</span>
+                </div>
+
+              </div>
+             
+              <a href="#" class="card-button">Read more</a>
+            </div>
+          </div>
+        </div>
+         <!-- Card End -->
+
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+       <!-- If we need navigation buttons -->
+       <div class="swiper-button-prev"></div>
+       <div class="swiper-button-next"></div>
+    </div>
+  </div>
+   <!-- LINKIN swiper <SCRipt> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+  <!-- LINKING CUSTOM SCRIPT -->
+  <!-- <script src="assets/js/script.js"></script> -->
+<!-- </body> -->
+        </section>
+<!--     
+</html> -->
+  
+  
+
+       <!-- RECENT PROJECT END  -->
+<!-- PROJECT -->
+<section class="about section" id="projects">
+   <h5 class="section-title">Projects</h5>
+  <h2 class="heading">My Academic</h2>
+
+  <div class="projects__container">
+    <!-- Project 1 -->
+    <div class="project__card">
+      <img src="assets/img/project1.png" alt="student">
+      <h3>Student Mental Health Predictor</h3>
+      <p>ML-powered web app predicting student mental health with chatbot support<br>
+         <strong>Minor Project 1</strong></p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project__card">
+      <img src="assets/img/project2.png" alt="Tribal Talent Repository">
+      <h3>Ayurvedic Plant Identifier & Medicine Recommender System</h3>
+      <p>AI-powered web app identifying Ayurvedic plants and recommending medicines with uses<br>
+         <strong>Minor Project 2</strong></p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project__card">
+      <img src="assets/img/project3.png" alt="Social Media Website">
+      <h3>Medical Report Analysis System</h3>
+      <p>AI-powered system that extracts, analyzes, and simplifies medical reports for better understanding.<br>
+         <strong>Major Project</strong></p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+   <section class="about section" id="projects">
+   <h5 class="section-title">Projects</h5>
+  <h2 class="heading">My Personal</h2>
+
+  <div class="projects__container">
+    <!-- Project 1 -->
+    <div class="project__card">
+      <img src="assets/img/Project4.png" alt="Smart Book Store">
+      <h3>TechEduation</h3>
+      <p>TechEducation is a smart learning platform with courses and AI-powered career guidance<br>
+         <strong> </strong></p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project__card">
+      <img src="assets/img/project5.png" alt="Tribal Talent Repository">
+      <h3>Retail Analysis – SQL Based Performance Evaluation</h3>
+      <p>Retail Analysis using SQL to track KPIs, top products, and user activity for sales growth.<br>
+         <strong></strong></p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project__card">
+      <img src="assets/img/project6.png" alt="Social Media Website">
+      <h3>Power BI Project: Coca-Cola USA (2022–2023)</h3>
+      <p>Power BI dashboard analyzing Coca-Cola USA (2022–2023) sales, profit, KPIs, and trends.<br>
+         <strong></strong></p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+     
+    
+
+    <div class="project__card">
+      <img src="assets/img/project7.png" alt="Tribal Talent Repository">
+      <h3>Power BI Sales Intelligence Dashboard</h3>
+      <p>Creating dynamic Power BI dashboards with DAX and M, transforming data into impactful business insights.<br>
+         <strong></strong></p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+
+    <div class="project__card">
+      <img src="assets/img/project8.png" alt="Tribal Talent Repository">
+      <h3>Annual Sales Report 2022 – Excel Data Analytics</h3>
+      <p>Excel-based 2022 sales analysis uncovering trends, insights, and growth strategies.<br>
+         <strong></strong></p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+    <div class="project__card" data-tags="web">
+      <img src="assets/img/project9.png" alt="Tic Tac Toe">
+      <h3>Html-Css-JS Tic Tac Toe</h3>
+      <p>Interactive tic tac toe game built with HTML, CSS, JS.<br></p>
+      <a href="" class="btn">Read More</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+                            
+                
+             
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Send" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Aakash</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/aakash2603/" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.instagram.com/aakash.kushwah__?igsh=MTFnb3dhMW5sOWZvaQ==" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://github.com/aakashkushwah26" class="footer__icon"><i class='bx bxl-github' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; 2026. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+
+
+        <!-- LINKIN swiper <SCRipt> -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- LINKING CUSTOM SCRIPT -->
+  <script src="assets/js/script.js"></script>
+
+
+       
+    </body>
+</html>
